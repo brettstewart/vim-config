@@ -10,3 +10,4 @@ git clone https://github.com/brettstewart/vim-config.git
 
 ## Plugins
 [The NERDTree](https://github.com/preservim/nerdtree)
+[vim-go](https://github.com/fatih/vim-go)
