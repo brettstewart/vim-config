@@ -38,6 +38,8 @@ endfunction
 " Plugins
 
 " NERDTree
+" Kudos: https://www.reddit.com/r/vim/comments/a4yzyt/comment/ec2p6ju
+let g:NERDTreeNodeDelimiter = "\u00a0"
 map <leader>o :NERDTreeToggle<CR>
 map <leader>f :NERDTreeFind<CR>
 autocmd StdinReadPre * let s:std_in=1
