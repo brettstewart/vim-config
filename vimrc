@@ -2,10 +2,13 @@
 filetype plugin on
 filetype indent on
 
+" Theme
 set background=dark
-" colorscheme jellybeans
-colorscheme PaperColor
-let mapleader = ","
+if v:version < 802
+    packadd! dracula
+endif
+syntax enable
+colorscheme dracula
 
 " Use spaces
 set expandtab
@@ -14,6 +17,7 @@ set shiftwidth=2
 set tabstop=2
 
 " General
+let mapleader = ","
 set autowrite " Autosaves file when running :make or :GoBuild
 set laststatus=2
 
